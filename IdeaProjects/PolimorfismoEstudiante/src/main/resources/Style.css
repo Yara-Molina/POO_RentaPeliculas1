@@ -1,0 +1,110 @@
+Button {
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+    -fx-border-width: 2;
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+
+Button:hover {
+    -fx-background-color: #9f8a2f;
+    -fx-font-size: 16px;
+}
+
+Button:pressed {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #3a1d06;
+    -fx-font-weight: bold;
+}
+
+TextField {
+    -fx-border-color: #bd6217;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+TextField:focused{
+    -fx-background-color: #e9ff71;
+}
+
+.text-user{
+    -fx-border-radius: 50px;
+}
+
+.label{
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+}
+.table-view{
+    -fx-background-color:#e9ff71 ;
+    -fx-border-color: #bd6217;
+}
+
+.table-view:focused{
+    -fx-background-color: #bd6217;
+}
+
+#col1:focused{
+    -fx-background-color:#bd6217 ;
+}
+
+#col1{
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+    -fx-border-width: 2;
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+}
+
+#col2{
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+    -fx-border-width: 2;
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+}
+
+#col3{
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+    -fx-border-width: 2;
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+}
+
+#col4{
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+    -fx-border-width: 2;
+    -fx-text-fill: #bd6217;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: bold;
+    -fx-font-size: 14px;
+}
+
+.alert {
+    -fx-background-color: #e9ff71;
+    -fx-border-color: #bd6217;
+}
+
+.alert .header-panel {
+    -fx-background-color: #e9ff71;
+}
+
+.alert .content.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #9a3837;
+}
+
+
